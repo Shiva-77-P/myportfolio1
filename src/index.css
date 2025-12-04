@@ -1,0 +1,14 @@
+/* src/index.css - Tailwind entry */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom defaults */
+:root { --bg: #0b1220; --muted: #94a3b8; }
+body {
+  background: var(--bg);
+  color: #e6eef8;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
