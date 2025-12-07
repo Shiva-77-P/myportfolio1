@@ -456,13 +456,15 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Education */}
+     {/* Education */}
       <section id="education" className="py-24 px-6 bg-slate-950 relative">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-white mb-12 text-center">Education & Certifications</h2>
           <div className="relative pl-8 md:pl-0 space-y-16">
+            {/* Vertical Line */}
             <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-slate-800 -translate-x-1/2"></div>
 
+            {/* MCA Item */}
             <div className="md:flex items-center justify-between gap-12">
               <div className="hidden md:block w-1/2 text-right">
                 <div className="text-cyan-400 font-mono text-sm mb-1">2023 - 2025</div>
@@ -470,8 +472,10 @@ const Portfolio = () => {
                 <div className="text-slate-400">Sai Sudhir PG College, Hyderabad</div>
               </div>
 
+              {/* Dot */}
               <div className="absolute left-0 md:left-1/2 w-4 h-4 bg-slate-950 border-2 border-cyan-500 rounded-full -translate-x-[5px] md:-translate-x-1/2 mt-1.5"></div>
 
+              {/* Mobile View Text */}
               <div className="md:hidden mb-2">
                 <div className="text-cyan-400 font-mono text-sm">2023 - 2025</div>
                 <h3 className="text-xl font-bold text-white">MCA</h3>
@@ -481,23 +485,11 @@ const Portfolio = () => {
               <div className="md:w-1/2 text-slate-400 text-sm">Aggregate: 80%. Focused on advanced computing and software applications.</div>
             </div>
 
-            <div className="md:flex items-center justify-between gap-12 md:flex-row-reverse">
-              <div className="hidden md:block w-1/2">
-                <div className="text-cyan-400 font-mono text-sm mb-1">2017 - 2022</div>
-                <h3 className="text-xl font-bold text-white">Bachelor of Science (B.Sc)</h3>
-                <div className="text-slate-400">Lal Bahadur College</div>
-              </div>
+            {/* B.Sc Section Removed Here */}
 
-              <div className="absolute left-0 md:left-1/2 w-4 h-4 bg-slate-950 border-2 border-violet-500 rounded-full -translate-x-[5px] md:-translate-x-1/2 mt-1.5"></div>
-
-              <div className="md:hidden mb-2">
-                <div className="text-cyan-400 font-mono text-sm">2017 - 2022</div>
-                <h3 className="text-xl font-bold text-white">Bachelor of Science</h3>
-                <div className="text-slate-400">Lal Bahadur College</div>
-              </div>
-
-              <div className="md:w-1/2 text-right text-slate-400 text-sm">Aggregate: 82%. Strong foundation in computer science principles.</div>
-            </div>
+          </div>
+        </div>
+      </section>
 
             <div className="md:flex items-center justify-between gap-12">
               <div className="hidden md:block w-1/2 text-right">
